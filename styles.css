@@ -1,0 +1,48 @@
+.container {
+  height: 150px;
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: grey;
+}
+
+.container-row {
+  max-width: 400px;
+  margin: 5px auto;
+  flex-direction: row;
+  text-align: center;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  border-radius: 12px;
+  margin: 5px 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#btnOne {
+  background-color: #fd0202;
+}
+
+#btnOne:hover {
+  background-color: #df1a1a;
+}
+
+#btnTwo {
+  background-color: #ff8000;
+}
+
+#btnTwo:hover {
+  background-color: #db720a;
+}
+
+#btnThree {
+  background-color: #ffd900;
+}
+
+#btnThree:hover {
+  background-color: #dbbb1b;
+}
